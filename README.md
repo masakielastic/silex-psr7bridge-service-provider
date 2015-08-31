@@ -60,3 +60,8 @@ $app->get('/', function(ServerRequestInterface $request) {
 $app->run();
 ```
 
+License
+-------
+
+MIT
+
