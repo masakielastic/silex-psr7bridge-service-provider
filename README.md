@@ -1,8 +1,8 @@
 PSR7BridgeServiceProvider
 =========================
 
-Install
--------
+Installation
+------------
 
 Add the following code to composer.json.
 
@@ -27,11 +27,11 @@ Add the following code to composer.json.
     }
     ],
     "require": {
-        "masakielastic/silex-psr7bridge-service-provider": "*",
         "silex/silex": "~1.3",
         "symfony/psr-http-message-bridge": "0.2.*",
         "zendframework/zend-diactoros": "~1.1",
-        "psr/http-message": "~1.0"
+        "psr/http-message": "~1.0",
+        "masakielastic/silex-psr7bridge-service-provider": "*"
     }
 }
 
