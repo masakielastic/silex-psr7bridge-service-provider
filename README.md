@@ -42,9 +42,9 @@ Usage
 
 ```php
 use Silex\Application;
+use Masakielastic\Silex\Psr7BridgeServiceProvider;
 use Psr\Http\Message\ServerRequestInterface;
 use Zend\Diactoros\Response as Psr7Response;
-use Masakielastic\Silex\Psr7BridgeServiceProvider;
 
 $app = new Application();
 $app->register(new Psr7BridgeServiceProvider);
